@@ -39,7 +39,7 @@ PREFIX = "tmp"
 # Disable custom email address name, if set true, users cannot input custom email name, will auto generate
 # DISABLE_CUSTOM_ADDRESS_NAME = true
 # IF YOU WANT TO MAKE YOUR SITE PRIVATE, UNCOMMENT THE FOLLOWING LINES
-# PASSWORDS = ["123", "456"]
+# PASSWORDS = ["blaze"]
 # For admin panel
 # ADMIN_PASSWORDS = ["123", "456"]
 # warning: no password or user check for admin portal
@@ -49,7 +49,7 @@ PREFIX = "tmp"
 # Create new address with default domain first, if set true, will use first domain from DEFAULT_DOMAINS when no domain specified
 # CREATE_ADDRESS_DEFAULT_DOMAIN_FIRST = false
 DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
-DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
+DOMAINS = ["7aries.dpdns.org"] # all domain names
 # For chinese domain name, you can use DOMAIN_LABELS to show chinese domain name
 # DOMAIN_LABELS = ["中文.xxx", "xxx.xxx2"]
 # USER_DEFAULT_ROLE = "vip" # default role for new users(only when enable mail verification)
@@ -132,7 +132,7 @@ ENABLE_AUTO_REPLY = false
 [[d1_databases]]
 binding = "DB"
 database_name = "xxx"
-database_id = "xxx"
+database_id = "611efcb0-90a5-419e-bcd7-e57bee8397ab"
 
 # Workers AI binding (required for AI email extraction)
 # [ai]
